@@ -1,0 +1,82 @@
+*
+{
+    box-sizing: border-box;
+}
+html,body
+{
+    margin : 0;
+}
+.full-screen-container
+{
+    background-image: url("background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container
+{
+    background-color: hsla(201, 100%, 6%, 0.6);
+    min-width: 350px;
+    width: 50%;
+    max-width: 400px;
+    padding:20px 20px;
+
+}
+.login-title
+{
+    color:white;
+    text-align: center;
+    font-weight: normal;
+    font-size:2.1em;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.input-group
+{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input-group label
+{
+    margin-bottom: 5px;
+    color:white;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+.input-group input
+{
+    background-color:hsla(201, 100%, 91%, 0.3);
+    border:1px solid hsl(201, 100%, 6%);
+    outline:none;
+    font-size: 1.2em;
+    padding: 1px;
+    color: white;
+    border-radius: 5px;;
+}
+
+.login-button
+{
+    width:100%;
+    background-color: hsla(201, 100%, 50%, 0.1);
+    border:1px solid hsl(201, 100%, 50%);
+    outline:none;
+    padding:10px;
+    font-size: 1.0em;
+    margin: 20px 0px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: hsla(201, 100%, 50%, 0.3)
+}
+
+.login-button:focus {
+    background-color: hsla(201, 100%, 50%, 0.5)
+}
+
